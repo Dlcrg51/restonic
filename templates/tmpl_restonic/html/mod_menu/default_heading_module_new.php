@@ -12,7 +12,14 @@ defined('_JEXEC') or die;
 ?>
 <?php
 
-$custom = JModuleHelper::getModule('mod_custom', 'Mattresses');
+$input = JFactory::getApplication()->input;
+
+if ($input->get('chad') == 1) {
+    $custom = JModuleHelper::getModule('mod_custom', 'MattressesJuly');
+
+} else {
+    $custom = JModuleHelper::getModule('mod_custom', 'Mattresses');
+}
 
 echo JModuleHelper::renderModule($custom, array('style'=>'blank'));
 

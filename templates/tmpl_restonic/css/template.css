@@ -7829,10 +7829,26 @@ label,
 #top-menu .nav > li #menu-healthrest-memory-foam {
   background: url('../images/mattress-images/menu-healthrest-memory-foam.png');
 }
+#top-menu .nav > li #menu-comfortcare-cushion-firm-box-top {
+  background: url('../images/mattress-images/menu-comfortcare-cushion-firm-box-top.png');
+}
+#top-menu .nav > li #menu-comfortcare-firm-euro-top {
+  background: url('../images/mattress-images/menu-comfortcare-firm-euro-top.png');
+}
+#top-menu .nav > li #menu-comfortcare-micro-coil-box-top {
+  background: url('../images/mattress-images/menu-comfortcare-micro-coil-box-top.png');
+}
+#top-menu .nav > li #menu-comfortcare-ultra-plush-box-top {
+  background: url('../images/mattress-images/menu-comfortcare-ultra-plush-box-top.png');
+}
 #top-menu .nav > li #menu-comfort-care-limited,
 #top-menu .nav > li #menu-comfort-care-signature,
 #top-menu .nav > li #menu-comfort-care-select,
 #top-menu .nav > li #menu-comfort-care,
+#top-menu .nav > li #menu-comfortcare-cushion-firm-box-top,
+#top-menu .nav > li #menu-comfortcare-firm-euro-top,
+#top-menu .nav > li #menu-comfortcare-micro-coil-box-top,
+#top-menu .nav > li #menu-comfortcare-ultra-plush-box-top,
 #top-menu .nav > li #menu-healthrest-tempagel,
 #top-menu .nav > li #menu-healthrest-latex,
 #top-menu .nav > li #menu-healthrest-memory-foam {
@@ -7848,6 +7864,10 @@ label,
 #top-menu .nav > li #menu-comfort-care-signature:hover,
 #top-menu .nav > li #menu-comfort-care-select:hover,
 #top-menu .nav > li #menu-comfort-care:hover,
+#top-menu .nav > li #menu-comfortcare-cushion-firm-box-top:hover,
+#top-menu .nav > li #menu-comfortcare-firm-euro-top:hover,
+#top-menu .nav > li #menu-comfortcare-micro-coil-box-top:hover,
+#top-menu .nav > li #menu-comfortcare-ultra-plush-box-top:hover,
 #top-menu .nav > li #menu-healthrest-tempagel:hover,
 #top-menu .nav > li #menu-healthrest-latex:hover,
 #top-menu .nav > li #menu-healthrest-memory-foam:hover {
@@ -8500,6 +8520,10 @@ footer .footer-nav ul li a:hover {
   #top-menu .nav > li #menu-comfort-care-signature,
   #top-menu .nav > li #menu-comfort-care-select,
   #top-menu .nav > li #menu-comfort-care,
+  #top-menu .nav > li #menu-comfortcare-cushion-firm-box-top,
+  #top-menu .nav > li #menu-comfortcare-firm-euro-top,
+  #top-menu .nav > li #menu-comfortcare-micro-coil-box-top,
+  #top-menu .nav > li #menu-comfortcare-ultra-plush-box-top,
   #top-menu .nav > li #menu-healthrest-tempagel,
   #top-menu .nav > li #menu-healthrest-latex,
   #top-menu .nav > li #menu-healthrest-memory-foam,
