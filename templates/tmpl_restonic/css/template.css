@@ -7637,6 +7637,11 @@ footer .footer-nav-wrapper .footer-nav {
   background: #9B9A98;
   line-height: 1.6em;
 }
+#quick-retailers {
+  border-bottom: 1px solid #efefef;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
 .home #bottom .container > .span5 {
   color: #ffffff;
 }
