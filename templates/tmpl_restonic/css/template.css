@@ -7631,6 +7631,12 @@ footer .footer-nav-wrapper .footer-nav {
 .image-share-toolbar a {
   padding: 0 1px;
 }
+#find-retailer h4 {
+  color: #fff;
+  font-weight: normal;
+  background: #9B9A98;
+  line-height: 1.6em;
+}
 .home #bottom .container > .span5 {
   color: #ffffff;
 }
@@ -8286,6 +8292,10 @@ footer .footer-nav ul li a:hover {
   #top-menu .nav > li #menu-comfort-care-signature,
   #top-menu .nav > li #menu-comfort-care-select,
   #top-menu .nav > li #menu-comfort-care,
+  #top-menu .nav > li #menu-comfortcare-cushion-firm-box-top,
+  #top-menu .nav > li #menu-comfortcare-firm-euro-top,
+  #top-menu .nav > li #menu-comfortcare-micro-coil-box-top,
+  #top-menu .nav > li #menu-comfortcare-ultra-plush-box-top,
   #top-menu .nav > li #menu-healthrest-tempagel,
   #top-menu .nav > li #menu-healthrest-latex,
   #top-menu .nav > li #menu-healthrest-memory-foam,
