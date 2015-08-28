@@ -31,7 +31,7 @@ if ($isValidClaim): ?>
     Last name: {tbl_warranty_claim_oct___last_name}<br />
     Email Address: {tbl_warranty_claim_oct___email_address}<br />
     Phone Number: {tbl_warranty_claim_oct___phone}<br />
-    Other Location: NEED TO ADD FIELD<br />
+    Other Location: {tbl_warranty_claim_oct___other_location}<br />
     Contact Preference: {tbl_warranty_claim_oct___contact_preference}
 </p>
 <p>
@@ -90,8 +90,8 @@ if ($isValidClaim): ?>
         State: {tbl_warranty_claim_oct___state}<br />
         Zip: {tbl_warranty_claim_oct___zip}<br />
         Email Address: {tbl_warranty_claim_oct___email_address}<br />
-        Contact Preference: {tbl_warranty_claim_oct___contact_preference}
-
+        Contact Preference: {tbl_warranty_claim_oct___contact_preference}<br />
+        Other Location: {tbl_warranty_claim_oct___other_location}<br />
     </p>
     <p>
         <strong>Purchase Information</strong>

@@ -11,8 +11,7 @@ defined('_JEXEC') or die;
 
 ?>
 <?php
-
-$custom = JModuleHelper::getModule('mod_custom', 'Mattresses_new');
+$custom = JModuleHelper::getModule('mod_custom', 'Mattresses');
 
 echo JModuleHelper::renderModule($custom, array('style'=>'blank'));
 

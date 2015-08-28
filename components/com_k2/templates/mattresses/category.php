@@ -124,6 +124,7 @@ defined('_JEXEC') or die;
 					$query->where('catid='.$subCategory->id);
 					$query->where('published=' . 1);
 					$query->where('trash!=' . 1);
+                    $query->order('ordering ASC');
 
 					$db->setQuery($query);
 
@@ -140,7 +141,7 @@ defined('_JEXEC') or die;
 				<div class="itemList">
 					<?php if(isset($this->leading) && count($this->leading)): ?>
 						<!-- Leading items -->
-						<div class="mattress-items">
+						<div class="mattress-items count-<?php echo count($results); ?>">
 							<?php foreach($this->leading as $key=>$item): ?>
 								<?php
 								// Load category_item.php by default

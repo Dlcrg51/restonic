@@ -271,15 +271,11 @@ defined('_JEXEC') or die;
 	<?php endif; ?>
 </div>
 <!-- End K2 Category Layout -->
-
-<?php
-
-$doc = JFactory::getDocument();
-$doc->addScriptDeclaration("
-        jQuery( document ).ready(function() {
-            jQuery('#restonicTabs').tabCollapse({
+<script type="text/javascript">
+        jQuery( document ).ready(function($) {
+            $('#restonicTabs').tabCollapse({
                 tabsClass: 'hidden-phone',
                 accordionClass: 'visible-phone'
             });
-        });");
-?>
+        });;
+</script>

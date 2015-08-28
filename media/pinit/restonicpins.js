@@ -54,6 +54,13 @@ jQuery(document).ready(function($) {
     function addPinit(selector) {
 
         selector.each(function () {
+
+            // if the image is less than 150px in width skip execution
+            if ($(this).attr('width') < 150)
+            {
+                return;
+            }
+
             // get the image float
             var float = $(this).css("float");
 
