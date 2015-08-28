@@ -7642,6 +7642,11 @@ footer .footer-nav-wrapper .footer-nav {
   padding-bottom: 10px;
   margin-bottom: 10px;
 }
+.YGthumbBox .ygThumbDetails {
+  width: 100% !important;
+  padding-left: 0px;
+  padding-right: 0px;
+}
 .home #bottom .container > .span5 {
   color: #ffffff;
 }
@@ -8211,6 +8216,13 @@ footer .footer-nav ul li a:hover {
 .itemAuthorAvatar {
   float: left;
   padding: 5px;
+}
+.media_mentions #itemListSecondary .itemContainer {
+  float: left;
+  display: inline-block;
+}
+.media_mentions #itemListSecondary .itemContainer h3.catItemTitle-media {
+  padding-right: 20px;
 }
 @media (min-width: 1200px) {
   section .main-body-row .main-body {
